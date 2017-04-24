@@ -20,7 +20,10 @@ class SignChoiceViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
        
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "transparent"), for: UIBarMetrics.default)
+        //self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "transparent"), for: UIBarMetrics.default)
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
 
         SignInButton.setBackgroundImage(UIImage(named:"1.0登录"),for:.normal)
         SignUpButton.setBackgroundImage(UIImage(named:"1.0注册"),for:.normal)

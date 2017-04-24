@@ -41,7 +41,7 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let leftBarBtn = UIBarButtonItem(title: "title", style: .plain, target: self, action: #selector(SignInViewController.backToPrevious))
+        let leftBarBtn = UIBarButtonItem(title: "title", style: .plain, target: self, action: #selector(SignUpViewController.backToPrevious))
         leftBarBtn.image = UIImage(named: "back")
         leftBarBtn.tintColor = UIColor.black
         //用于消除左边空隙，要不然按钮顶不到最前面

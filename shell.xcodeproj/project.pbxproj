@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602B45C31EABAF84005A06FB /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B45C21EABAF84005A06FB /* MyTabBarController.swift */; };
+		602B45C71EABC9E8005A06FB /* SendConchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B45C61EABC9E8005A06FB /* SendConchViewController.swift */; };
 		6041689E1EA85C1700E4E0D4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */; };
 		60574CA21EA8E3AC0050D0F9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60574CA11EA8E3AC0050D0F9 /* SwiftyJSON.swift */; };
 		60574CA41EA8E9960050D0F9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60574CA31EA8E9960050D0F9 /* HomePageViewController.swift */; };
+		609D2C831EAB4975003DF7F5 /* TagChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D2C821EAB4975003DF7F5 /* TagChangeViewController.swift */; };
 		60CB02CD1EA791C800C522CB /* SignChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB02CC1EA791C800C522CB /* SignChoiceViewController.swift */; };
 		60CB02CF1EA7C0A400C522CB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB02CE1EA7C0A400C522CB /* SignInViewController.swift */; };
 		F8C3BD441EA159D4000A071D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3BD431EA159D4000A071D /* AppDelegate.swift */; };
@@ -40,9 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		602B45C21EABAF84005A06FB /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		602B45C61EABC9E8005A06FB /* SendConchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendConchViewController.swift; sourceTree = "<group>"; };
 		6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		60574CA11EA8E3AC0050D0F9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
 		60574CA31EA8E9960050D0F9 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		609D2C821EAB4975003DF7F5 /* TagChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagChangeViewController.swift; sourceTree = "<group>"; };
 		60CB02CC1EA791C800C522CB /* SignChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignChoiceViewController.swift; sourceTree = "<group>"; };
 		60CB02CE1EA7C0A400C522CB /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		F8C3BD401EA159D4000A071D /* shell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shell.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,7 +122,10 @@
 				60CB02CC1EA791C800C522CB /* SignChoiceViewController.swift */,
 				60CB02CE1EA7C0A400C522CB /* SignInViewController.swift */,
 				6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */,
+				602B45C21EABAF84005A06FB /* MyTabBarController.swift */,
 				60574CA31EA8E9960050D0F9 /* HomePageViewController.swift */,
+				609D2C821EAB4975003DF7F5 /* TagChangeViewController.swift */,
+				602B45C61EABC9E8005A06FB /* SendConchViewController.swift */,
 				F8C3BD4D1EA159D4000A071D /* Assets.xcassets */,
 				F8C3BD4F1EA159D4000A071D /* LaunchScreen.storyboard */,
 				F8C3BD521EA159D4000A071D /* Info.plist */,
@@ -277,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602B45C71EABC9E8005A06FB /* SendConchViewController.swift in Sources */,
 				6041689E1EA85C1700E4E0D4 /* SignUpViewController.swift in Sources */,
+				609D2C831EAB4975003DF7F5 /* TagChangeViewController.swift in Sources */,
 				60CB02CD1EA791C800C522CB /* SignChoiceViewController.swift in Sources */,
 				F8C3BD4C1EA159D4000A071D /* shell.xcdatamodeld in Sources */,
 				F8C3BD461EA159D4000A071D /* ViewController.swift in Sources */,
@@ -285,6 +296,7 @@
 				60CB02CF1EA7C0A400C522CB /* SignInViewController.swift in Sources */,
 				60574CA21EA8E3AC0050D0F9 /* SwiftyJSON.swift in Sources */,
 				F8C3BD441EA159D4000A071D /* AppDelegate.swift in Sources */,
+				602B45C31EABAF84005A06FB /* MyTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
