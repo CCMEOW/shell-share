@@ -37,6 +37,7 @@ class TagChangeViewController: UIViewController {
     
     func backToPrevious(){
         self.navigationController?.popViewController(animated: true)
+        UIApplication.shared.statusBarStyle = .default
     }
     /*
     override func viewWillAppear(_ animated: Bool) {

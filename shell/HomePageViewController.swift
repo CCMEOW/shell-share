@@ -19,7 +19,7 @@ class HomePageViewController: UIViewController {
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
 
-      
+      UIApplication.shared.statusBarStyle = .default
     }
     
     override func didReceiveMemoryWarning() {

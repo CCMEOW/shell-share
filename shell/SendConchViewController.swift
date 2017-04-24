@@ -9,7 +9,48 @@
 import UIKit
 
 class SendConchViewController: UIViewController {
-
+    
+    @IBOutlet weak var anonymous: UIButton!
+    @IBOutlet weak var SongName: UITextField!
+    @IBOutlet weak var SingerNam: UITextField!
+    @IBOutlet weak var SongURL: UITextField!
+    @IBOutlet weak var ConchContent: UITextView!
+    @IBOutlet weak var ConchTag: UITextField!
+    @IBOutlet weak var weibo: UIButton!
+    @IBOutlet weak var wechat: UIButton!
+    @IBOutlet weak var QQ: UIButton!
+    @IBOutlet weak var sendConchButton: UIButton!
+    
+    var name : String = ""
+    var singer : String = ""
+    var url : String = ""
+    var content: String = ""
+    var tag: String = ""
+    
+    @IBAction func anonymousOrNot(_ sender: Any) {
+        if(anonymous.tag == 0){
+            anonymous.setTitle("非匿名", for: .normal)
+            anonymous.setTitleColor(UIColor.black, for: .normal)
+            anonymous.tag = 1;
+        }
+        else{
+            anonymous.setTitle("匿名", for: .normal)
+            anonymous.setTitleColor(UIColor.black, for: .normal)
+            anonymous.tag = 0;
+        }
+    }
+    
+    @IBAction func finshSendConch(_ sender: Any) {
+        //这里是暂时写的get数据的，目前都按照wiki写的，没有封装成JSON
+        name = SongName.text!
+        singer = SingerNam.text!
+        url = SongURL.text!
+        content = ConchContent.text!
+        tag = ConchTag.text!
+        
+        self.dismiss(animated: true, completion:nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -24,6 +65,15 @@ class SendConchViewController: UIViewController {
         spacer.width = -5;
         
         self.navigationItem.leftBarButtonItems = [spacer, leftBarBtn]
+        
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+        
+        anonymous.setTitle("匿名", for: .normal)
+        anonymous.setTitleColor(UIColor.black, for: .normal)
+        anonymous.tag = 0;
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,7 +84,6 @@ class SendConchViewController: UIViewController {
     func backToPrevious(){
         self.dismiss(animated: true, completion:nil)
     }
-    
 
     /*
     // MARK: - Navigation
