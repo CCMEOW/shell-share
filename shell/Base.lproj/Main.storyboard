@@ -297,7 +297,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ea3-JN-P0C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2369" y="1562"/>
+            <point key="canvasLocation" x="2345" y="1560"/>
         </scene>
         <!--沙滩-->
         <scene sceneID="lg8-oh-jTV">
@@ -368,7 +368,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="2369" y="804"/>
+            <point key="canvasLocation" x="2345" y="804"/>
         </scene>
         <!--搜索-->
         <scene sceneID="s5g-RF-b2e">
@@ -481,7 +481,7 @@
                         <segue destination="fDo-Zl-D4y" kind="relationship" relationship="viewControllers" id="7uj-MY-RIC"/>
                         <segue destination="hjZ-DR-LcW" kind="relationship" relationship="viewControllers" id="Cru-Gk-qqq"/>
                         <segue destination="EaL-rI-T41" kind="relationship" relationship="viewControllers" id="kNx-q8-yTF"/>
-                        <segue destination="k2a-4m-Qcs" kind="relationship" relationship="viewControllers" id="FRo-TB-JUU"/>
+                        <segue destination="fsu-IV-IXX" kind="relationship" relationship="viewControllers" id="cPo-aP-L8k"/>
                         <segue destination="u2N-XX-1uu" kind="relationship" relationship="viewControllers" id="ALC-Qb-KTN"/>
                     </connections>
                 </tabBarController>
@@ -651,7 +651,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="歌曲链接">
+                                    <fragment content="点击搜索获取歌曲链接">
                                         <attributes>
                                             <color key="NSColor" red="0.7551148274982582" green="0.76259121192893398" blue="0.76259121192893398" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
@@ -721,6 +721,14 @@
                                     <action selector="finshSendConch:" destination="0qy-jG-NdC" eventType="touchUpInside" id="lbB-SN-77T"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEX-uK-NOX">
+                                <rect key="frame" x="329" y="194" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="search"/>
+                                <connections>
+                                    <action selector="searchSongUrl:" destination="0qy-jG-NdC" eventType="touchUpInside" id="x1X-Zb-4ch"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -752,6 +760,100 @@
             </objects>
             <point key="canvasLocation" x="3948" y="762.36881559220399"/>
         </scene>
+        <!--Dynamic View Controller-->
+        <scene sceneID="RqE-0d-TFH">
+            <objects>
+                <viewController id="Nth-Fq-bKU" customClass="DynamicViewController" customModule="shell" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HYZ-vY-4uE"/>
+                        <viewControllerLayoutGuide type="bottom" id="LMN-TK-aR1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PNe-de-slj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AdF-BL-Ikc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YeC-Qb-Ao2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4900" y="762"/>
+        </scene>
+        <!--Notification Table View Controller-->
+        <scene sceneID="3Ck-3j-jv6">
+            <objects>
+                <tableViewController id="rdp-lr-aGR" customClass="NotificationTableViewController" customModule="shell" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="IM7-0B-YSE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotifictionCell" rowHeight="70" id="A2t-gU-q2P" customClass="NotifictionTableViewCell" customModule="shell" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A2t-gU-q2P" id="Yv2-Mt-civ">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGk-ig-uh4">
+                                            <rect key="frame" x="25" y="48" width="315" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Label">
+                                                    <attributes>
+                                                        <font key="NSFont" size="13" name="PingFangSC-Light"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQL-u1-Dar">
+                                            <rect key="frame" x="16" y="8" width="342" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Label">
+                                                    <attributes>
+                                                        <font key="NSFont" size="18" name="PingFangSC-Light"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="sendDate" destination="kGk-ig-uh4" id="UX7-BK-hpr"/>
+                                    <outlet property="title" destination="PQL-u1-Dar" id="heY-pg-Heu"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rdp-lr-aGR" id="Ac2-N3-26W"/>
+                            <outlet property="delegate" destination="rdp-lr-aGR" id="aKV-4Q-PwV"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C6t-bq-bDq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4900" y="1477.5112443778112"/>
+        </scene>
+        <!--动态-->
+        <scene sceneID="kJg-2W-Tab">
+            <objects>
+                <navigationController id="fsu-IV-IXX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="动态" image="three2" selectedImage="three1" id="mbR-Px-Ae4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fKX-8N-HeC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Nth-Fq-bKU" kind="relationship" relationship="rootViewController" id="GHg-JD-TyW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kqK-qU-2lH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4900" y="44"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="LTp-ke-qaE">
             <objects>
@@ -768,25 +870,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="md6-e9-NaL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3948" y="44"/>
-        </scene>
-        <!--动态-->
-        <scene sceneID="BAR-ly-A1O">
-            <objects>
-                <viewController id="k2a-4m-Qcs" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JXM-H3-dB5"/>
-                        <viewControllerLayoutGuide type="bottom" id="UoQ-X2-FGF"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="BW6-BD-rVa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="动态" image="three2" selectedImage="three1" id="qMC-hp-nHH"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Vd-st-7Gr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4940" y="44"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mXN-yb-nKQ">
@@ -830,6 +913,7 @@
         <image name="four2" width="35" height="35"/>
         <image name="one1" width="35" height="35"/>
         <image name="one2" width="35" height="35"/>
+        <image name="search" width="27" height="27"/>
         <image name="three1" width="35" height="35"/>
         <image name="three2" width="35" height="35"/>
         <image name="two1" width="35" height="35"/>

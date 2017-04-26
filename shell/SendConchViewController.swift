@@ -51,6 +51,15 @@ class SendConchViewController: UIViewController {
         self.dismiss(animated: true, completion:nil)
     }
     
+    @IBAction func searchSongUrl(_ sender: Any) {
+        name = SongName.text!
+        singer = SingerNam.text!
+        //到数据库中搜索有没有相关的链接,并返回明明给url这个变量
+        if(url == ""){
+            SongURL.text = "  找不到这首歌，请填写链接"
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

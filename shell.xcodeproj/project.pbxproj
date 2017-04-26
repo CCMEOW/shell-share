@@ -12,6 +12,18 @@
 		6041689E1EA85C1700E4E0D4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */; };
 		60574CA21EA8E3AC0050D0F9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60574CA11EA8E3AC0050D0F9 /* SwiftyJSON.swift */; };
 		60574CA41EA8E9960050D0F9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60574CA31EA8E9960050D0F9 /* HomePageViewController.swift */; };
+		608B66871EAF96A700016132 /* FloodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66821EAF96A700016132 /* FloodView.swift */; };
+		608B66881EAF96A700016132 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66831EAF96A700016132 /* MenuItem.swift */; };
+		608B66891EAF96A700016132 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66841EAF96A700016132 /* MenuView.swift */; };
+		608B668A1EAF96A700016132 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66851EAF96A700016132 /* PageController.swift */; };
+		608B668B1EAF96A700016132 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66861EAF96A700016132 /* ProgressView.swift */; };
+		608B66911EAF974500016132 /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66901EAF974500016132 /* DynamicViewController.swift */; };
+		608B669D1EB0531500016132 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B669B1EB0531500016132 /* FollowViewController.swift */; };
+		608B669E1EB0531500016132 /* FollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 608B669C1EB0531500016132 /* FollowViewController.xib */; };
+		608B66A21EB0591C00016132 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66A11EB0591C00016132 /* MessageTableViewController.swift */; };
+		608B66A91EB067FA00016132 /* NotificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66A71EB067FA00016132 /* NotificationTableViewController.swift */; };
+		608B66AC1EB07C7100016132 /* NotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66AB1EB07C7100016132 /* NotificationData.swift */; };
+		608B66AE1EB086DD00016132 /* NotifictionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66AD1EB086DD00016132 /* NotifictionTableViewCell.swift */; };
 		609D2C831EAB4975003DF7F5 /* TagChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D2C821EAB4975003DF7F5 /* TagChangeViewController.swift */; };
 		60CB02CD1EA791C800C522CB /* SignChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB02CC1EA791C800C522CB /* SignChoiceViewController.swift */; };
 		60CB02CF1EA7C0A400C522CB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB02CE1EA7C0A400C522CB /* SignInViewController.swift */; };
@@ -48,6 +60,18 @@
 		6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		60574CA11EA8E3AC0050D0F9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
 		60574CA31EA8E9960050D0F9 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		608B66821EAF96A700016132 /* FloodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloodView.swift; sourceTree = "<group>"; };
+		608B66831EAF96A700016132 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		608B66841EAF96A700016132 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		608B66851EAF96A700016132 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		608B66861EAF96A700016132 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		608B66901EAF974500016132 /* DynamicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
+		608B669B1EB0531500016132 /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		608B669C1EB0531500016132 /* FollowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowViewController.xib; sourceTree = "<group>"; };
+		608B66A11EB0591C00016132 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		608B66A71EB067FA00016132 /* NotificationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewController.swift; sourceTree = "<group>"; };
+		608B66AB1EB07C7100016132 /* NotificationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationData.swift; sourceTree = "<group>"; };
+		608B66AD1EB086DD00016132 /* NotifictionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifictionTableViewCell.swift; sourceTree = "<group>"; };
 		609D2C821EAB4975003DF7F5 /* TagChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagChangeViewController.swift; sourceTree = "<group>"; };
 		60CB02CC1EA791C800C522CB /* SignChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignChoiceViewController.swift; sourceTree = "<group>"; };
 		60CB02CE1EA7C0A400C522CB /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +116,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		608B66811EAF96A700016132 /* PageController */ = {
+			isa = PBXGroup;
+			children = (
+				608B66821EAF96A700016132 /* FloodView.swift */,
+				608B66831EAF96A700016132 /* MenuItem.swift */,
+				608B66841EAF96A700016132 /* MenuView.swift */,
+				608B66851EAF96A700016132 /* PageController.swift */,
+				608B66861EAF96A700016132 /* ProgressView.swift */,
+			);
+			path = PageController;
+			sourceTree = "<group>";
+		};
+		608B66A31EB059D000016132 /* DynamicPages */ = {
+			isa = PBXGroup;
+			children = (
+				608B66901EAF974500016132 /* DynamicViewController.swift */,
+				608B669B1EB0531500016132 /* FollowViewController.swift */,
+				608B669C1EB0531500016132 /* FollowViewController.xib */,
+				608B66A11EB0591C00016132 /* MessageTableViewController.swift */,
+				608B66A71EB067FA00016132 /* NotificationTableViewController.swift */,
+				608B66AD1EB086DD00016132 /* NotifictionTableViewCell.swift */,
+				608B66AB1EB07C7100016132 /* NotificationData.swift */,
+			);
+			name = DynamicPages;
+			sourceTree = "<group>";
+		};
+		608B66A41EB059EF00016132 /* SignIn&Up */ = {
+			isa = PBXGroup;
+			children = (
+				60CB02CC1EA791C800C522CB /* SignChoiceViewController.swift */,
+				60CB02CE1EA7C0A400C522CB /* SignInViewController.swift */,
+				6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */,
+			);
+			name = "SignIn&Up";
+			sourceTree = "<group>";
+		};
 		F8C3BD371EA159D4000A071D = {
 			isa = PBXGroup;
 			children = (
@@ -116,16 +176,16 @@
 			isa = PBXGroup;
 			children = (
 				60574CA11EA8E3AC0050D0F9 /* SwiftyJSON.swift */,
+				608B66811EAF96A700016132 /* PageController */,
 				F8C3BD431EA159D4000A071D /* AppDelegate.swift */,
 				F8C3BD451EA159D4000A071D /* ViewController.swift */,
 				F8C3BD471EA159D4000A071D /* Main.storyboard */,
-				60CB02CC1EA791C800C522CB /* SignChoiceViewController.swift */,
-				60CB02CE1EA7C0A400C522CB /* SignInViewController.swift */,
-				6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */,
+				608B66A41EB059EF00016132 /* SignIn&Up */,
 				602B45C21EABAF84005A06FB /* MyTabBarController.swift */,
 				60574CA31EA8E9960050D0F9 /* HomePageViewController.swift */,
 				609D2C821EAB4975003DF7F5 /* TagChangeViewController.swift */,
 				602B45C61EABC9E8005A06FB /* SendConchViewController.swift */,
+				608B66A31EB059D000016132 /* DynamicPages */,
 				F8C3BD4D1EA159D4000A071D /* Assets.xcassets */,
 				F8C3BD4F1EA159D4000A071D /* LaunchScreen.storyboard */,
 				F8C3BD521EA159D4000A071D /* Info.plist */,
@@ -262,6 +322,7 @@
 				F8C3BD511EA159D4000A071D /* LaunchScreen.storyboard in Resources */,
 				F8C3BD4E1EA159D4000A071D /* Assets.xcassets in Resources */,
 				F8C3BD491EA159D4000A071D /* Main.storyboard in Resources */,
+				608B669E1EB0531500016132 /* FollowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,16 +348,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				602B45C71EABC9E8005A06FB /* SendConchViewController.swift in Sources */,
+				608B66A21EB0591C00016132 /* MessageTableViewController.swift in Sources */,
 				6041689E1EA85C1700E4E0D4 /* SignUpViewController.swift in Sources */,
 				609D2C831EAB4975003DF7F5 /* TagChangeViewController.swift in Sources */,
+				608B66AE1EB086DD00016132 /* NotifictionTableViewCell.swift in Sources */,
 				60CB02CD1EA791C800C522CB /* SignChoiceViewController.swift in Sources */,
 				F8C3BD4C1EA159D4000A071D /* shell.xcdatamodeld in Sources */,
+				608B66911EAF974500016132 /* DynamicViewController.swift in Sources */,
+				608B669D1EB0531500016132 /* FollowViewController.swift in Sources */,
 				F8C3BD461EA159D4000A071D /* ViewController.swift in Sources */,
+				608B66881EAF96A700016132 /* MenuItem.swift in Sources */,
+				608B66A91EB067FA00016132 /* NotificationTableViewController.swift in Sources */,
+				608B66891EAF96A700016132 /* MenuView.swift in Sources */,
 				60574CA41EA8E9960050D0F9 /* HomePageViewController.swift in Sources */,
+				608B66AC1EB07C7100016132 /* NotificationData.swift in Sources */,
 				60CB02CF1EA7C0A400C522CB /* SignInViewController.swift in Sources */,
 				60574CA21EA8E3AC0050D0F9 /* SwiftyJSON.swift in Sources */,
+				608B66871EAF96A700016132 /* FloodView.swift in Sources */,
 				F8C3BD441EA159D4000A071D /* AppDelegate.swift in Sources */,
+				608B668B1EAF96A700016132 /* ProgressView.swift in Sources */,
 				602B45C31EABAF84005A06FB /* MyTabBarController.swift in Sources */,
+				608B668A1EAF96A700016132 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
