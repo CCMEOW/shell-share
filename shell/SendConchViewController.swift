@@ -21,8 +21,8 @@ class SendConchViewController: UIViewController {
     @IBOutlet weak var QQ: UIButton!
     @IBOutlet weak var sendConchButton: UIButton!
     
-    var name : String = ""
-    var singer : String = ""
+    var song_name : String = ""
+    var singer_name : String = ""
     var url : String = ""
     var content: String = ""
     var tag: String = ""
@@ -42,8 +42,8 @@ class SendConchViewController: UIViewController {
     
     @IBAction func finshSendConch(_ sender: Any) {
         //这里是暂时写的get数据的，目前都按照wiki写的，没有封装成JSON
-        name = SongName.text!
-        singer = SingerNam.text!
+        song_name = SongName.text!
+        singer_name = SingerNam.text!
         url = SongURL.text!
         content = ConchContent.text!
         tag = ConchTag.text!
@@ -52,8 +52,8 @@ class SendConchViewController: UIViewController {
     }
     
     @IBAction func searchSongUrl(_ sender: Any) {
-        name = SongName.text!
-        singer = SingerNam.text!
+        song_name = SongName.text!
+        singer_name = SingerNam.text!
         //到数据库中搜索有没有相关的链接,并返回明明给url这个变量
         if(url == ""){
             SongURL.text = "  找不到这首歌，请填写链接"

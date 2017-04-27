@@ -51,7 +51,7 @@ class DynamicViewController: PageController, UITableViewDelegate {
         pageController.bounces = true
         pageController.menuHeight = 44
         pageController.titleSizeSelected = 15
-        pageController.values = ["", "海螺第一届故事大会开始啦！"] // pass values
+        //pageController.values = ["", "海螺第一届故事大会开始啦！"] // pass values
         pageController.keys = ["type", "text"] // keys
         pageController.title = "Test"
         pageController.menuBGColor = .clear

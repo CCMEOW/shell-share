@@ -11,7 +11,7 @@ import UIKit
 class MessageTableViewController: UITableViewController {
     
     //var text = ["海螺第一届故事大会开始啦！","系统将于本周四晚凌晨4点更新。"]
-    var text = ""
+    var text = "test"
     fileprivate let cellReuseIdentifier = "cellReuseIdentifier"
     
     override func viewDidLoad() {
@@ -19,7 +19,6 @@ class MessageTableViewController: UITableViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
         tableView.rowHeight = 70
         
-        print(text)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
@@ -47,8 +46,10 @@ class MessageTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier, for: indexPath)
         cell.selectionStyle = UITableViewCellSelectionStyle.none
-        //cell.imageView?.image = UIImage(named: "github")
-        cell.textLabel?.text = text//[indexPath.row]
+        //cell.imageView?.image = UIImage(named: "center")
+        cell.textLabel?.text = "out"//[indexPath.row]
+        cell.detailTextLabel?.text = "2017.4.26";
+        cell.detailTextLabel?.textColor = UIColor.gray;
         
         return cell
     }

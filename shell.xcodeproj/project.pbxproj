@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602016E91EB223E3005CB3F1 /* ConchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602016E81EB223E3005CB3F1 /* ConchDetailViewController.swift */; };
 		602B45C31EABAF84005A06FB /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B45C21EABAF84005A06FB /* MyTabBarController.swift */; };
 		602B45C71EABC9E8005A06FB /* SendConchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B45C61EABC9E8005A06FB /* SendConchViewController.swift */; };
 		6041689E1EA85C1700E4E0D4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		602016E81EB223E3005CB3F1 /* ConchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConchDetailViewController.swift; sourceTree = "<group>"; };
 		602B45C21EABAF84005A06FB /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		602B45C61EABC9E8005A06FB /* SendConchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendConchViewController.swift; sourceTree = "<group>"; };
 		6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				602B45C21EABAF84005A06FB /* MyTabBarController.swift */,
 				60574CA31EA8E9960050D0F9 /* HomePageViewController.swift */,
 				609D2C821EAB4975003DF7F5 /* TagChangeViewController.swift */,
+				602016E81EB223E3005CB3F1 /* ConchDetailViewController.swift */,
 				602B45C61EABC9E8005A06FB /* SendConchViewController.swift */,
 				608B66A31EB059D000016132 /* DynamicPages */,
 				F8C3BD4D1EA159D4000A071D /* Assets.xcassets */,
@@ -366,6 +369,7 @@
 				60574CA21EA8E3AC0050D0F9 /* SwiftyJSON.swift in Sources */,
 				608B66871EAF96A700016132 /* FloodView.swift in Sources */,
 				F8C3BD441EA159D4000A071D /* AppDelegate.swift in Sources */,
+				602016E91EB223E3005CB3F1 /* ConchDetailViewController.swift in Sources */,
 				608B668B1EAF96A700016132 /* ProgressView.swift in Sources */,
 				602B45C31EABAF84005A06FB /* MyTabBarController.swift in Sources */,
 				608B668A1EAF96A700016132 /* PageController.swift in Sources */,
