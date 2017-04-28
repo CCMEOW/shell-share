@@ -60,6 +60,15 @@ class SendConchViewController: UIViewController {
         }
     }
     
+    @IBAction func searchTag(_ sender: Any) {
+        tag = ConchTag.text!
+        //在数据库中搜索tag
+        if(tag==""){
+            ConchTag.text = "   该标签不存在，请重新输入。"
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

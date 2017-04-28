@@ -15,24 +15,34 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var PasswordInput: UITextField!
     @IBOutlet weak var LoginButton: UIButton!
     
+    //判断登录是否出错
+    var isLoginSuccess = true
+    
     //var emailValue: String = ""
     //var passwdValue: String = ""
     
     var jsonSignin:JSON=["email":"","passwd":""]
     
     @IBAction func Login(_ sender: Any) {
-        let alterController = UIAlertController(title: "提示", message: "信息不可为空", preferredStyle:.alert)
-        let confirmAction = UIAlertAction(title: "确认", style: .default, handler: nil)
+        let alterController1 = UIAlertController(title: "提示", message: "信息不可为空", preferredStyle:.alert)
+        let confirmAction1 = UIAlertAction(title: "确认", style: .default, handler: nil)
+        alterController1.addAction(confirmAction1)
         
-        alterController.addAction(confirmAction)
+        let alterController2 = UIAlertController(title: "提示", message: "登录出错，请稍后重试", preferredStyle:.alert)
+        let confirmAction2 = UIAlertAction(title: "确认", style: .default, handler: nil)
+        alterController2.addAction(confirmAction2)
+
         
         if((EmailInput.text?.isEmpty)!||(PasswordInput.text?.isEmpty)!||(EmailInput.text=="邮箱")||(PasswordInput.text=="密码")){
-            self.present(alterController, animated: true, completion: nil)
+            self.present(alterController1, animated: true, completion: nil)
         }
         else{
             jsonSignin["email"].string = EmailInput.text!
             jsonSignin["passwd"].string = PasswordInput.text!
-            //print(jsonData["emailV"].string)
+            //如果登录失败
+            if(!isLoginSuccess){
+                self.present(alterController2, animated: true, completion: nil)
+            }
         }
         
     }

@@ -16,23 +16,33 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var PasswordInput: UITextField!
     @IBOutlet weak var LogupButton: UIButton!
     
+    //判断注册是否出错
+    var isLogupSuccess = true
+    
     var jsonSignup:JSON=["email":"","passwd":"","username":""]
 
     
     @IBAction func Logup(_ sender: Any) {
-        let alterController = UIAlertController(title: "提示", message: "信息不可为空", preferredStyle:.alert)
-        let confirmAction = UIAlertAction(title: "确认", style: .default, handler: nil)
+        let alterController1 = UIAlertController(title: "提示", message: "信息不可为空", preferredStyle:.alert)
+        let confirmAction1 = UIAlertAction(title: "确认", style: .default, handler: nil)
         
-        alterController.addAction(confirmAction)
+        alterController1.addAction(confirmAction1)
+        
+        let alterController2 = UIAlertController(title: "提示", message: "注册出错，请重试", preferredStyle:.alert)
+        let confirmAction2 = UIAlertAction(title: "确认", style: .default, handler: nil)
+        
+        alterController2.addAction(confirmAction2)
         
         if((EmailInput.text?.isEmpty)!||(PasswordInput.text?.isEmpty)!||(UserNameInput.text?.isEmpty)!||(EmailInput.text=="邮箱")||(PasswordInput.text=="设置密码")||(UserNameInput.text=="用户名")){
-            self.present(alterController, animated: true, completion: nil)
+            self.present(alterController1, animated: true, completion: nil)
         }
         else{
             jsonSignup["email"].string = EmailInput.text!
             jsonSignup["passwd"].string = PasswordInput.text!
             jsonSignup["username"].string = UserNameInput.text!
-            //print(jsonData["emailV"].string)
+            if(!isLogupSuccess){
+                self.present(alterController2, animated: true, completion: nil)
+            }
         }
 
     }
