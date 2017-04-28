@@ -27,7 +27,7 @@ class HomePageViewController: UIViewController {
     //传输进来的数据
     var like = 20;
     var collection = 32;
-    var content = " \"    年轻的教父干掉第一桶金之后从天台下来，若无其事地哄着襁褓中的迈克；暮年的教父跟孙子玩耍，倒在花园里，孙子却安之若素；脑海里闪过，穿着军服的年轻迈克跟女友在舞池游弋，华尔兹与时光同频……\""
+    var content = "      年轻的教父干掉第一桶金之后从天台下来，若无其事地哄着襁褓中的迈克；暮年的教父跟孙子玩耍，倒在花园里，孙子却安之若素；脑海里闪过，穿着军服的年轻迈克跟女友在舞池游弋，华尔兹与时光同频。年轻的教父干掉第一桶金之后从天台下来，若无其事地哄着襁褓中的迈克；暮年的教父跟孙子玩耍，倒在花园里，孙子却安之若素；脑海里闪过，穿着军服的年轻迈克跟女友在舞池游弋，华尔兹与时光同频。年轻的教父干掉第一桶金之后从天台下来，若无其事地哄着襁褓中的迈克；暮年的教父跟孙子玩耍，倒在花园里，孙子却安之若素；脑海里闪过，穿着军服的年轻迈克跟女友在舞池游弋，华尔兹与时光同频。年轻的教父干掉第一桶金之后从天台下来，若无其事地哄着襁褓中的迈克；暮年的教父跟孙子玩耍，倒在花园里，孙子却安之若素；脑海里闪过，穿着军服的年轻迈克跟女友在舞池游弋，华尔兹与时光同频。"
     var song_name = "Mathilde’s First Waltz"
     var singer_name = "Bark Cat Bark"
     var user_name = "Fiction飞鸟"
@@ -36,6 +36,8 @@ class HomePageViewController: UIViewController {
     var byer = "——"
     //var user_icon
     var reportNews: UITextField?
+    var reportRea :String = "" //传到后端的举报理由
+    var isReported = false  //判断是否被举报
     
     
     
@@ -93,7 +95,7 @@ class HomePageViewController: UIViewController {
         //从后端传过来的另一个海螺的数据
         like = 11;
         collection = 40;
-        content = " \"    一听到这歌我就想到 泰国第二大城市清迈里的拜县 很美很小清新的一个地方 说走就走的旅行 当时我一个人拉着行李箱自由行来到了这里 第一眼：美呆了。远离城市的喧嚣 安静的就像世外桃源。从食物到建筑到风景都别具一格。真的好想再去一次。。怀念怀念。\""
+        content = "     一听到这歌我就想到 泰国第二大城市清迈里的拜县 很美很小清新的一个地方 说走就走的旅行 当时我一个人拉着行李箱自由行来到了这里 第一眼：美呆了。远离城市的喧嚣 安静的就像世外桃源。从食物到建筑到风景都别具一格。真的好想再去一次。。怀念怀念。"
         song_name = "In a tree"
         singer_name = "Priscilla Anh"
         user_name = "Yopepe"
@@ -125,6 +127,8 @@ class HomePageViewController: UIViewController {
             (reportReason) -> Void in
             self.reportNews = reportReason
             self.reportNews!.placeholder = "<请输入你的举报理由>"
+            self.isReported = true
+            self.reportRea = (self.reportNews?.text)!
         }
         self.present(alterController, animated: true, completion: nil)
     }
@@ -141,6 +145,8 @@ class HomePageViewController: UIViewController {
         paraph.lineSpacing = 4
         let attributes = [NSFontAttributeName:UIFont.systemFont(ofSize: 14),NSParagraphStyleAttributeName: paraph]
         cotentField.attributedText = NSAttributedString(string: content, attributes: attributes)
+        cotentField.textContainer.maximumNumberOfLines = 7
+        self.cotentField.textContainer.lineBreakMode = NSLineBreakMode.byClipping
         userName.text = user_name
         songL = songL + song_name + songR
         SongName.text = songL
