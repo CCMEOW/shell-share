@@ -285,19 +285,162 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yGb-zW-3bX">
+                                <rect key="frame" x="0.0" y="72" width="375" height="497"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ovs-vZ-sVk">
+                                        <rect key="frame" x="0.0" y="-64" width="188" height="192"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="2.2高冷标签">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="高冷">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="20" name="PingFangSC-Light"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="coolTag:" destination="Tb9-v8-Pav" eventType="touchUpInside" id="WaF-l3-2Lp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZIz-au-HfN">
+                                        <rect key="frame" x="187" y="-64" width="188" height="192"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="2.2 标签2">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="柔和">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="20" name="PingFangSC-Light"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="gentletag:" destination="Tb9-v8-Pav" eventType="touchUpInside" id="xb5-19-e4b"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Oe-Lp-Mdc">
+                                        <rect key="frame" x="187" y="128" width="188" height="192"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="2.2 标签4">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="忧郁">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="20" name="PingFangSC-Light"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="blueTag:" destination="Tb9-v8-Pav" eventType="touchUpInside" id="6zr-UY-D6P"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bDu-1I-UZ0">
+                                        <rect key="frame" x="0.0" y="320" width="188" height="192"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="2.2 标签5">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="平静">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="20" name="PingFangSC-Light"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="calmTag:" destination="Tb9-v8-Pav" eventType="touchUpInside" id="z5Z-OM-JfY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SO6-pk-qaB">
+                                        <rect key="frame" x="187" y="320" width="188" height="192"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="2.2 标签6">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="清新">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="20" name="PingFangSC-Light"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="freshTag:" destination="Tb9-v8-Pav" eventType="touchUpInside" id="uBM-sO-Qnp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dE7-jO-XWK">
+                                        <rect key="frame" x="0.0" y="128" width="188" height="192"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="2.2 标签3">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="悲伤">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="20" name="PingFangSC-Light"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="sadTag:" destination="Tb9-v8-Pav" eventType="touchUpInside" id="hCK-Ek-txm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.2 导航bg" translatesAutoresizingMaskIntoConstraints="NO" id="m0z-LP-qcY">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.2搜索栏bg" translatesAutoresizingMaskIntoConstraints="NO" id="HGY-VQ-5ga">
+                                <rect key="frame" x="0.0" y="560" width="375" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" clearsOnBeginEditing="YES" minimumFontSize="17" background="2.2 搜索内部bg" translatesAutoresizingMaskIntoConstraints="NO" id="wZY-7n-2RC">
+                                <rect key="frame" x="16" y="577" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="没有你想要的？搜索一下">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="12" name=".PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" firstLineHeadIndent="3" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ1-fA-6BG">
+                                <rect key="frame" x="328" y="580" width="24" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="search2"/>
+                                <connections>
+                                    <action selector="searchTag:" destination="Tb9-v8-Pav" eventType="touchUpInside" id="3fr-9k-AKr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="y3p-Dl-4XA"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="mainScrollView" destination="yGb-zW-3bX" id="U83-py-S1T"/>
+                        <outlet property="searchInput" destination="wZY-7n-2RC" id="fhD-WL-KdH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ea3-JN-P0C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538" y="1566"/>
+            <point key="canvasLocation" x="1536.8" y="1565.6671664167918"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AtD-Eg-HZL">
@@ -314,6 +457,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fDq-ES-zYD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2345" y="1566"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zwO-88-722">
+            <objects>
+                <viewController id="Rfi-H6-pZP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mUm-wr-MkV"/>
+                        <viewControllerLayoutGuide type="bottom" id="670-d2-P8s"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6wO-CG-Nls">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="G47-XS-P2E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3v-iX-6jE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3180" y="1566"/>
         </scene>
         <!--沙滩-->
         <scene sceneID="lg8-oh-jTV">
@@ -423,13 +585,6 @@
                                     <action selector="loadAnotherConch:" destination="UDv-Lz-Cjp" eventType="touchUpInside" id="bjU-gr-J3b"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cnx-D8-WWC">
-                                <rect key="frame" x="142" y="154" width="147" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8j-mT-wd1">
                                 <rect key="frame" x="75" y="233" width="147" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -454,6 +609,16 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JoJ-ND-MZP">
+                                <rect key="frame" x="134" y="155" width="165" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Rfi-H6-pZP" kind="showDetail" id="Kob-xq-Xro"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.82199729430000001" green="0.91889531459999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -490,7 +655,7 @@
                         <outlet property="likeButton" destination="UIi-Dt-XoB" id="UmV-wy-JUN"/>
                         <outlet property="likeNum" destination="gLf-n6-eaH" id="H6w-HE-7nb"/>
                         <outlet property="searchDisplayController" destination="B1f-Wi-18Q" id="H7C-5e-4nx"/>
-                        <outlet property="userName" destination="Cnx-D8-WWC" id="Bz7-hP-ypA"/>
+                        <outlet property="userName" destination="JoJ-ND-MZP" id="nDk-Zj-4HE"/>
                         <outlet property="usrImage" destination="cTl-t8-2iI" id="XSr-nQ-4ij"/>
                     </connections>
                 </viewController>
@@ -555,19 +720,6 @@
                                         </attributedString>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZYE-Db-cWV">
-                                        <rect key="frame" x="66" y="220" width="253" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <attributedString key="attributedText">
-                                            <fragment content="Label">
-                                                <attributes>
-                                                    <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <font key="NSFont" size="15" name="PingFangSC-Light"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgL-M3-eHX">
                                         <rect key="frame" x="51" y="537" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -614,6 +766,16 @@
                                             <action selector="toSongURL:" destination="kAg-p8-7oe" eventType="touchUpInside" id="Hti-uW-49s"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HZf-Ee-pNp">
+                                        <rect key="frame" x="66" y="221" width="225" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Rfi-H6-pZP" kind="showDetail" id="fxg-cR-kTH"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -629,12 +791,12 @@
                         <outlet property="mainScrollView" destination="xkc-KG-lsv" id="b1L-Wh-YH4"/>
                         <outlet property="reportButton" destination="iS9-8K-F8v" id="1au-q5-xzJ"/>
                         <outlet property="singerName" destination="GYo-Rz-4Y2" id="bPX-wy-7xZ"/>
-                        <outlet property="userName" destination="ZYE-Db-cWV" id="bNL-gH-y0u"/>
+                        <outlet property="userName" destination="HZf-Ee-pNp" id="rbK-IQ-sVb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Si-qP-Cmy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2345" y="2301"/>
+            <point key="canvasLocation" x="2344.8000000000002" y="2300.5997001499254"/>
         </scene>
         <!--My Tab Bar Controller-->
         <scene sceneID="zOQ-Tr-CVU">
@@ -671,76 +833,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CX1-pM-XLZ">
-                                <rect key="frame" x="16" y="129" width="150" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6.1个人主页bg" translatesAutoresizingMaskIntoConstraints="NO" id="8mO-7n-WXJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0As-cQ-9yq">
-                                <rect key="frame" x="174" y="129" width="188" height="128"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lqX-xc-ToY">
+                                <rect key="frame" x="16" y="72" width="343" height="538"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1BT-7v-HyC">
-                                <rect key="frame" x="16" y="286" width="346" height="285"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="rGK-Rw-aau">
-                                        <rect key="frame" x="0.0" y="28" width="346" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rGK-Rw-aau" id="JIW-Sf-z8k">
-                                            <rect key="frame" x="0.0" y="0.0" width="346" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KG8-rH-ZIr">
-                                        <rect key="frame" x="0.0" y="72" width="346" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KG8-rH-ZIr" id="qcv-7g-zGp">
-                                            <rect key="frame" x="0.0" y="0.0" width="346" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Skf-9E-OL9">
-                                        <rect key="frame" x="0.0" y="116" width="346" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Skf-9E-OL9" id="qaE-n5-rUC">
-                                            <rect key="frame" x="0.0" y="0.0" width="346" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="HyC-Mj-ZNS">
-                                        <rect key="frame" x="0.0" y="160" width="346" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HyC-Mj-ZNS" id="kV0-2Q-eV4">
-                                            <rect key="frame" x="0.0" y="0.0" width="346" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="AYy-NZ-LIs">
-                                        <rect key="frame" x="0.0" y="204" width="346" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AYy-NZ-LIs" id="hfb-Fb-zIe">
-                                            <rect key="frame" x="0.0" y="0.0" width="346" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iKc-7p-Siw">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem title="沙滩" id="S5r-yN-UN4"/>
-                                    <tabBarItem title="搜索" id="oWD-zO-Hhz"/>
-                                    <tabBarItem title="动态" id="bwj-Y7-PUv"/>
-                                    <tabBarItem title="我的" id="Nov-lF-W0u"/>
-                                </items>
-                            </tabBar>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.1 用户头像" translatesAutoresizingMaskIntoConstraints="NO" id="FQm-sT-RTR">
+                                        <rect key="frame" x="40" y="39" width="77" height="77"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.82199729430000001" green="0.91889531459999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -748,7 +854,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMp-IA-SCD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5902" y="44"/>
+            <point key="canvasLocation" x="5917.6000000000004" y="43.628185907046479"/>
         </scene>
         <!--Song Detail View Controller-->
         <scene sceneID="ufH-7p-ZLq">
@@ -817,19 +923,6 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mu2-1E-p2R">
-                                <rect key="frame" x="136" y="364" width="171" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Label">
-                                        <attributes>
-                                            <color key="NSColor" red="0.98819307339999995" green="1" blue="0.97777607519999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="15" name="PingFangSC-Light"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.1 用户头像" translatesAutoresizingMaskIntoConstraints="NO" id="BuV-HU-O9K">
                                 <rect key="frame" x="78" y="354" width="41" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -925,6 +1018,16 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oo0-mC-E1F">
+                                <rect key="frame" x="134" y="365" width="173" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Rfi-H6-pZP" kind="showDetail" id="xSa-0W-l4r"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -936,7 +1039,7 @@
                         <outlet property="likeNum" destination="hwd-2K-IW7" id="MfO-iM-UIW"/>
                         <outlet property="singerName" destination="7fR-6x-WBm" id="6Tw-Cv-rUW"/>
                         <outlet property="songName" destination="789-Xl-yCK" id="73E-2O-ZJ1"/>
-                        <outlet property="userName" destination="Mu2-1E-p2R" id="Jga-Ho-WAp"/>
+                        <outlet property="userName" destination="oo0-mC-E1F" id="K0q-zB-GGy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xsf-42-dS6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1337,6 +1440,14 @@
         <image name="2.1详情bg" width="1875" height="3335"/>
         <image name="2.1首页bg" width="1875" height="2765"/>
         <image name="2.2 导航bg" width="1875" height="412"/>
+        <image name="2.2 搜索内部bg" width="1875" height="320"/>
+        <image name="2.2 标签2" width="940" height="960"/>
+        <image name="2.2 标签3" width="940" height="960"/>
+        <image name="2.2 标签4" width="940" height="960"/>
+        <image name="2.2 标签5" width="940" height="960"/>
+        <image name="2.2 标签6" width="940" height="960"/>
+        <image name="2.2搜索栏bg" width="1875" height="320"/>
+        <image name="2.2高冷标签" width="940" height="960"/>
         <image name="3.1导航栏bg" width="1875" height="350"/>
         <image name="3.1歌曲bg" width="1875" height="3335"/>
         <image name="3.1歌曲卡片" width="1310" height="1667"/>
@@ -1346,6 +1457,7 @@
         <image name="4.微博" width="27" height="27"/>
         <image name="4.朋友圈" width="27" height="27"/>
         <image name="4.标签" width="28" height="27"/>
+        <image name="6.1个人主页bg" width="1875" height="3335"/>
         <image name="back" width="27" height="27"/>
         <image name="bar" width="189" height="24"/>
         <image name="collect2" width="27" height="27"/>
@@ -1358,6 +1470,7 @@
         <image name="one2" width="35" height="35"/>
         <image name="report" width="27" height="27"/>
         <image name="search" width="27" height="27"/>
+        <image name="search2" width="64" height="64"/>
         <image name="share2" width="64" height="64"/>
         <image name="three1" width="35" height="35"/>
         <image name="three2" width="35" height="35"/>
@@ -1367,5 +1480,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="QM3-At-hGf"/>
+        <segue reference="Kob-xq-Xro"/>
     </inferredMetricsTieBreakers>
 </document>

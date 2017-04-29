@@ -13,7 +13,7 @@ class ConchDetailViewController: UIViewController {
     @IBOutlet weak var singerName: UILabel!
     @IBOutlet weak var contentField: UITextView!
     @IBOutlet weak var mainScrollView: UIScrollView!
-    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var userName: UIButton!
     @IBOutlet weak var likeButton: UIButton!
     @IBOutlet weak var collectButton: UIButton!
     @IBOutlet weak var reportButton: UIButton!
@@ -134,7 +134,9 @@ class ConchDetailViewController: UIViewController {
         self.navigationController?.navigationBar.titleTextAttributes = dict as? [String : AnyObject]
         
         singerName.text = singer_name
-        userName.text = user_name
+        userName.setTitle(user_name, for: .normal)
+        userName.setTitleColor(UIColor.white, for: .normal)
+        userName.contentHorizontalAlignment = UIControlContentHorizontalAlignment.left
         
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
@@ -183,6 +185,7 @@ class ConchDetailViewController: UIViewController {
     
     func backToPrevious(){
         self.dismiss(animated: true, completion:nil)
+        UIApplication.shared.statusBarStyle = .default
     }
     
     func comeToShare(){

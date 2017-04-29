@@ -19,7 +19,7 @@ class HomePageViewController: UIViewController {
     
     @IBOutlet weak var cotentField: UITextView!
     @IBOutlet weak var usrImage: UIImageView!
-    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var userName: UIButton!
     @IBOutlet weak var SongName: UILabel!
     @IBOutlet weak var Singer: UILabel!
     
@@ -107,7 +107,9 @@ class HomePageViewController: UIViewController {
         paraph.lineSpacing = 4
         let attributes = [NSFontAttributeName:UIFont.systemFont(ofSize: 14),NSParagraphStyleAttributeName: paraph]
         cotentField.attributedText = NSAttributedString(string: content, attributes: attributes)
-        userName.text = user_name
+        userName.setTitle(user_name, for: .normal)
+        userName.setTitleColor(UIColor.white, for: .normal)
+        userName.contentHorizontalAlignment = UIControlContentHorizontalAlignment.left
         songL = songL + song_name + songR
         SongName.text = songL
         byer = byer + singer_name
@@ -147,7 +149,9 @@ class HomePageViewController: UIViewController {
         cotentField.attributedText = NSAttributedString(string: content, attributes: attributes)
         cotentField.textContainer.maximumNumberOfLines = 7
         self.cotentField.textContainer.lineBreakMode = NSLineBreakMode.byClipping
-        userName.text = user_name
+        userName.setTitle(user_name, for: .normal)
+        userName.setTitleColor(UIColor.white, for: .normal)
+        userName.contentHorizontalAlignment = UIControlContentHorizontalAlignment.left
         songL = songL + song_name + songR
         SongName.text = songL
         byer = byer + singer_name

@@ -12,7 +12,7 @@ class SongDetailViewController: UIViewController {
     
     @IBOutlet weak var songName: UILabel!
     @IBOutlet weak var singerName: UILabel!
-    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var userName: UIButton!
     @IBOutlet weak var contentField: UITextView!
     @IBOutlet weak var likeButton: UIButton!
     @IBOutlet weak var likeNum: UILabel!
@@ -87,7 +87,9 @@ class SongDetailViewController: UIViewController {
         paraph.lineSpacing = 4
         let attributes = [NSFontAttributeName:UIFont.systemFont(ofSize: 14),NSParagraphStyleAttributeName: paraph]
         contentField.attributedText = NSAttributedString(string: content, attributes: attributes)
-        userName.text = user_name
+        userName.setTitle(user_name, for: .normal)
+        userName.setTitleColor(UIColor.white, for: .normal)
+        userName.contentHorizontalAlignment = UIControlContentHorizontalAlignment.left
         songName.text = song_name
         singerName.text = singer_name
     }
@@ -157,7 +159,9 @@ class SongDetailViewController: UIViewController {
         contentField.attributedText = NSAttributedString(string: content, attributes: attributes)
         contentField.textContainer.maximumNumberOfLines = 7
         self.contentField.textContainer.lineBreakMode = NSLineBreakMode.byClipping
-        userName.text = user_name
+        userName.setTitle(user_name, for: .normal)
+        userName.setTitleColor(UIColor.white, for: .normal)
+        userName.contentHorizontalAlignment = UIControlContentHorizontalAlignment.left
         songName.text = song_name
         singerName.text = singer_name
 

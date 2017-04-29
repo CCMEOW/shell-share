@@ -92,6 +92,8 @@ class SendConchViewController: UIViewController {
         anonymous.setTitleColor(UIColor.black, for: .normal)
         anonymous.tag = 0;
         
+        UIApplication.shared.statusBarStyle = .default
+        
     }
 
     override func didReceiveMemoryWarning() {
