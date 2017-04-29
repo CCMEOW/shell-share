@@ -14,8 +14,8 @@ class FollowSomeOneViewController: UIViewController, UICollectionViewDataSource,
     @IBOutlet weak var followingNum: UILabel!
     @IBOutlet weak var followerNum: UILabel!
 
-    var following_num = 20
-    var follower_num = 30
+    var follow_num = 20
+    var fan_num = 30
     var user_name = "Fiction飞鸟"
     
     //屏幕的宽和高
@@ -63,8 +63,8 @@ class FollowSomeOneViewController: UIViewController, UICollectionViewDataSource,
         // Do any additional setup after loading the view.
         spaceOwner.text = user_name + "的空间"
         userName.text = user_name
-        followingNum.text = String(following_num)
-        followerNum.text = String(follower_num)
+        followingNum.text = String(follow_num)
+        followerNum.text = String(fan_num)
         
         self.navigationController?.setNavigationBarHidden(true, animated: true)
         

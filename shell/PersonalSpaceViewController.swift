@@ -18,8 +18,8 @@ class PersonalSpaceViewController: UIViewController, UICollectionViewDataSource,
     let songSinger = ["Julian Moon", "Walk off the Earth", "Shane Alexander", "Mindy Glendhill", "Jessica Pera", "Brazzaville", "Mr.Oizo", "The Sounds", "Morrie","The Lucksmiths","Gun N'Rose","John Mayer"]
     
     var conch_num = 12
-    var following_num = 20
-    var follower_num = 27
+    var follow_num = 20
+    var fan_num = 27
 
     @IBOutlet weak var conchNum: UILabel!
     @IBOutlet weak var followingNum: UILabel!
@@ -62,8 +62,8 @@ class PersonalSpaceViewController: UIViewController, UICollectionViewDataSource,
         // Do any additional setup after loading the view.
         //初始化数据
         conchNum.text = String(conch_num)
-        followingNum.text = String(following_num)
-        followerNum.text = String(follower_num)
+        followingNum.text = String(follow_num)
+        followerNum.text = String(fan_num)
         
         
         loadCollectionView()
