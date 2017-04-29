@@ -112,6 +112,11 @@ class ConchDetailViewController: UIViewController {
         self.present(alterController, animated: true, completion: nil)
     }
     
+    @IBAction func backToPre(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+        UIApplication.shared.statusBarStyle = .default
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

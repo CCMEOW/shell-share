@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		600D9F8C1EB3C0C5006ADFD3 /* SongDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600D9F8B1EB3C0C5006ADFD3 /* SongDetailViewController.swift */; };
+		601D5B431EB48AC8000E6802 /* PersonalSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D5B421EB48AC8000E6802 /* PersonalSpaceViewController.swift */; };
+		601D5B451EB48B00000E6802 /* PersonalSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D5B441EB48B00000E6802 /* PersonalSettingViewController.swift */; };
+		601D5B481EB49584000E6802 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D5B471EB49584000E6802 /* FollowingViewController.swift */; };
+		601D5B4A1EB495A2000E6802 /* FollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D5B491EB495A2000E6802 /* FollowerViewController.swift */; };
+		601D5B4C1EB495C2000E6802 /* LikeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D5B4B1EB495C2000E6802 /* LikeListViewController.swift */; };
+		601D5B4E1EB495D2000E6802 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D5B4D1EB495D2000E6802 /* CollectionViewController.swift */; };
+		601D5B771EB4BA04000E6802 /* PersonalConchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D5B751EB4BA04000E6802 /* PersonalConchCell.swift */; };
+		601D5B781EB4BA04000E6802 /* PersonalConchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601D5B761EB4BA04000E6802 /* PersonalConchCell.xib */; };
+		601D5B7A1EB4CDC9000E6802 /* FollowSomeOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601D5B791EB4CDC9000E6802 /* FollowSomeOneViewController.swift */; };
 		602016E91EB223E3005CB3F1 /* ConchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602016E81EB223E3005CB3F1 /* ConchDetailViewController.swift */; };
 		602B45C31EABAF84005A06FB /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B45C21EABAF84005A06FB /* MyTabBarController.swift */; };
 		602B45C71EABC9E8005A06FB /* SendConchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B45C61EABC9E8005A06FB /* SendConchViewController.swift */; };
 		6041689E1EA85C1700E4E0D4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */; };
 		60574CA41EA8E9960050D0F9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60574CA31EA8E9960050D0F9 /* HomePageViewController.swift */; };
 		606CA2511EB360A900D5C4B0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CA2501EB360A900D5C4B0 /* SwiftyJSON.swift */; };
-		606CA2571EB360B600D5C4B0 /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CA2531EB360B600D5C4B0 /* DynamicViewController.swift */; };
-		606CA2581EB360B600D5C4B0 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CA2541EB360B600D5C4B0 /* FollowViewController.swift */; };
-		606CA2591EB360B600D5C4B0 /* FollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606CA2551EB360B600D5C4B0 /* FollowViewController.xib */; };
-		606CA25A1EB360B600D5C4B0 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CA2561EB360B600D5C4B0 /* MessageTableViewController.swift */; };
 		606CA25C1EB370A100D5C4B0 /* SearchSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606CA25B1EB370A100D5C4B0 /* SearchSongViewController.swift */; };
-		608B66871EAF96A700016132 /* FloodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66821EAF96A700016132 /* FloodView.swift */; };
-		608B66881EAF96A700016132 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66831EAF96A700016132 /* MenuItem.swift */; };
-		608B66891EAF96A700016132 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66841EAF96A700016132 /* MenuView.swift */; };
-		608B668A1EAF96A700016132 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66851EAF96A700016132 /* PageController.swift */; };
-		608B668B1EAF96A700016132 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66861EAF96A700016132 /* ProgressView.swift */; };
 		608B66A91EB067FA00016132 /* NotificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66A71EB067FA00016132 /* NotificationTableViewController.swift */; };
 		608B66AC1EB07C7100016132 /* NotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66AB1EB07C7100016132 /* NotificationData.swift */; };
 		608B66AE1EB086DD00016132 /* NotifictionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B66AD1EB086DD00016132 /* NotifictionTableViewCell.swift */; };
@@ -31,7 +31,6 @@
 		60CB02CD1EA791C800C522CB /* SignChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB02CC1EA791C800C522CB /* SignChoiceViewController.swift */; };
 		60CB02CF1EA7C0A400C522CB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB02CE1EA7C0A400C522CB /* SignInViewController.swift */; };
 		F8C3BD441EA159D4000A071D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3BD431EA159D4000A071D /* AppDelegate.swift */; };
-		F8C3BD461EA159D4000A071D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3BD451EA159D4000A071D /* ViewController.swift */; };
 		F8C3BD491EA159D4000A071D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C3BD471EA159D4000A071D /* Main.storyboard */; };
 		F8C3BD4C1EA159D4000A071D /* shell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8C3BD4A1EA159D4000A071D /* shell.xcdatamodeld */; };
 		F8C3BD4E1EA159D4000A071D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C3BD4D1EA159D4000A071D /* Assets.xcassets */; };
@@ -59,22 +58,22 @@
 
 /* Begin PBXFileReference section */
 		600D9F8B1EB3C0C5006ADFD3 /* SongDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailViewController.swift; sourceTree = "<group>"; };
+		601D5B421EB48AC8000E6802 /* PersonalSpaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalSpaceViewController.swift; sourceTree = "<group>"; };
+		601D5B441EB48B00000E6802 /* PersonalSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalSettingViewController.swift; sourceTree = "<group>"; };
+		601D5B471EB49584000E6802 /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		601D5B491EB495A2000E6802 /* FollowerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
+		601D5B4B1EB495C2000E6802 /* LikeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeListViewController.swift; sourceTree = "<group>"; };
+		601D5B4D1EB495D2000E6802 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		601D5B751EB4BA04000E6802 /* PersonalConchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalConchCell.swift; sourceTree = "<group>"; };
+		601D5B761EB4BA04000E6802 /* PersonalConchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalConchCell.xib; sourceTree = "<group>"; };
+		601D5B791EB4CDC9000E6802 /* FollowSomeOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowSomeOneViewController.swift; sourceTree = "<group>"; };
 		602016E81EB223E3005CB3F1 /* ConchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConchDetailViewController.swift; sourceTree = "<group>"; };
 		602B45C21EABAF84005A06FB /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		602B45C61EABC9E8005A06FB /* SendConchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendConchViewController.swift; sourceTree = "<group>"; };
 		6041689D1EA85C1700E4E0D4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		60574CA31EA8E9960050D0F9 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		606CA2501EB360A900D5C4B0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		606CA2531EB360B600D5C4B0 /* DynamicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
-		606CA2541EB360B600D5C4B0 /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
-		606CA2551EB360B600D5C4B0 /* FollowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowViewController.xib; sourceTree = "<group>"; };
-		606CA2561EB360B600D5C4B0 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
 		606CA25B1EB370A100D5C4B0 /* SearchSongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSongViewController.swift; sourceTree = "<group>"; };
-		608B66821EAF96A700016132 /* FloodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloodView.swift; sourceTree = "<group>"; };
-		608B66831EAF96A700016132 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
-		608B66841EAF96A700016132 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		608B66851EAF96A700016132 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
-		608B66861EAF96A700016132 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		608B66A71EB067FA00016132 /* NotificationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewController.swift; sourceTree = "<group>"; };
 		608B66AB1EB07C7100016132 /* NotificationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationData.swift; sourceTree = "<group>"; };
 		608B66AD1EB086DD00016132 /* NotifictionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifictionTableViewCell.swift; sourceTree = "<group>"; };
@@ -83,7 +82,6 @@
 		60CB02CE1EA7C0A400C522CB /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		F8C3BD401EA159D4000A071D /* shell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C3BD431EA159D4000A071D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8C3BD451EA159D4000A071D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8C3BD481EA159D4000A071D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8C3BD4B1EA159D4000A071D /* shell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shell.xcdatamodel; sourceTree = "<group>"; };
 		F8C3BD4D1EA159D4000A071D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,15 +120,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		606CA2521EB360B600D5C4B0 /* dynamiac_pageController */ = {
+		601D5B461EB48B11000E6802 /* Person */ = {
 			isa = PBXGroup;
 			children = (
-				606CA2531EB360B600D5C4B0 /* DynamicViewController.swift */,
-				606CA2541EB360B600D5C4B0 /* FollowViewController.swift */,
-				606CA2551EB360B600D5C4B0 /* FollowViewController.xib */,
-				606CA2561EB360B600D5C4B0 /* MessageTableViewController.swift */,
+				601D5B421EB48AC8000E6802 /* PersonalSpaceViewController.swift */,
+				601D5B471EB49584000E6802 /* FollowingViewController.swift */,
+				601D5B491EB495A2000E6802 /* FollowerViewController.swift */,
+				601D5B4D1EB495D2000E6802 /* CollectionViewController.swift */,
+				601D5B4B1EB495C2000E6802 /* LikeListViewController.swift */,
+				601D5B441EB48B00000E6802 /* PersonalSettingViewController.swift */,
+				601D5B751EB4BA04000E6802 /* PersonalConchCell.swift */,
+				601D5B761EB4BA04000E6802 /* PersonalConchCell.xib */,
 			);
-			path = dynamiac_pageController;
+			name = Person;
 			sourceTree = "<group>";
 		};
 		606CA25D1EB370B100D5C4B0 /* Beach&Tag */ = {
@@ -139,6 +141,7 @@
 				60574CA31EA8E9960050D0F9 /* HomePageViewController.swift */,
 				609D2C821EAB4975003DF7F5 /* TagChangeViewController.swift */,
 				602016E81EB223E3005CB3F1 /* ConchDetailViewController.swift */,
+				601D5B791EB4CDC9000E6802 /* FollowSomeOneViewController.swift */,
 			);
 			name = "Beach&Tag";
 			sourceTree = "<group>";
@@ -152,22 +155,9 @@
 			name = "SerachSong&Singer";
 			sourceTree = "<group>";
 		};
-		608B66811EAF96A700016132 /* PageController */ = {
-			isa = PBXGroup;
-			children = (
-				608B66821EAF96A700016132 /* FloodView.swift */,
-				608B66831EAF96A700016132 /* MenuItem.swift */,
-				608B66841EAF96A700016132 /* MenuView.swift */,
-				608B66851EAF96A700016132 /* PageController.swift */,
-				608B66861EAF96A700016132 /* ProgressView.swift */,
-			);
-			path = PageController;
-			sourceTree = "<group>";
-		};
 		608B66A31EB059D000016132 /* DynamicPages */ = {
 			isa = PBXGroup;
 			children = (
-				606CA2521EB360B600D5C4B0 /* dynamiac_pageController */,
 				608B66A71EB067FA00016132 /* NotificationTableViewController.swift */,
 				608B66AD1EB086DD00016132 /* NotifictionTableViewCell.swift */,
 				608B66AB1EB07C7100016132 /* NotificationData.swift */,
@@ -209,9 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				606CA2501EB360A900D5C4B0 /* SwiftyJSON.swift */,
-				608B66811EAF96A700016132 /* PageController */,
 				F8C3BD431EA159D4000A071D /* AppDelegate.swift */,
-				F8C3BD451EA159D4000A071D /* ViewController.swift */,
 				F8C3BD471EA159D4000A071D /* Main.storyboard */,
 				608B66A41EB059EF00016132 /* SignIn&Up */,
 				602B45C21EABAF84005A06FB /* MyTabBarController.swift */,
@@ -219,6 +207,7 @@
 				606CA2A01EB3A93700D5C4B0 /* SerachSong&Singer */,
 				602B45C61EABC9E8005A06FB /* SendConchViewController.swift */,
 				608B66A31EB059D000016132 /* DynamicPages */,
+				601D5B461EB48B11000E6802 /* Person */,
 				F8C3BD4D1EA159D4000A071D /* Assets.xcassets */,
 				F8C3BD4F1EA159D4000A071D /* LaunchScreen.storyboard */,
 				F8C3BD521EA159D4000A071D /* Info.plist */,
@@ -355,7 +344,7 @@
 				F8C3BD511EA159D4000A071D /* LaunchScreen.storyboard in Resources */,
 				F8C3BD4E1EA159D4000A071D /* Assets.xcassets in Resources */,
 				F8C3BD491EA159D4000A071D /* Main.storyboard in Resources */,
-				606CA2591EB360B600D5C4B0 /* FollowViewController.xib in Resources */,
+				601D5B781EB4BA04000E6802 /* PersonalConchCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,30 +370,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				602B45C71EABC9E8005A06FB /* SendConchViewController.swift in Sources */,
+				601D5B771EB4BA04000E6802 /* PersonalConchCell.swift in Sources */,
 				600D9F8C1EB3C0C5006ADFD3 /* SongDetailViewController.swift in Sources */,
 				6041689E1EA85C1700E4E0D4 /* SignUpViewController.swift in Sources */,
+				601D5B4C1EB495C2000E6802 /* LikeListViewController.swift in Sources */,
 				609D2C831EAB4975003DF7F5 /* TagChangeViewController.swift in Sources */,
+				601D5B481EB49584000E6802 /* FollowingViewController.swift in Sources */,
 				606CA2511EB360A900D5C4B0 /* SwiftyJSON.swift in Sources */,
 				608B66AE1EB086DD00016132 /* NotifictionTableViewCell.swift in Sources */,
 				60CB02CD1EA791C800C522CB /* SignChoiceViewController.swift in Sources */,
 				F8C3BD4C1EA159D4000A071D /* shell.xcdatamodeld in Sources */,
-				F8C3BD461EA159D4000A071D /* ViewController.swift in Sources */,
-				608B66881EAF96A700016132 /* MenuItem.swift in Sources */,
+				601D5B7A1EB4CDC9000E6802 /* FollowSomeOneViewController.swift in Sources */,
+				601D5B4E1EB495D2000E6802 /* CollectionViewController.swift in Sources */,
 				608B66A91EB067FA00016132 /* NotificationTableViewController.swift in Sources */,
-				608B66891EAF96A700016132 /* MenuView.swift in Sources */,
-				606CA2581EB360B600D5C4B0 /* FollowViewController.swift in Sources */,
+				601D5B4A1EB495A2000E6802 /* FollowerViewController.swift in Sources */,
 				60574CA41EA8E9960050D0F9 /* HomePageViewController.swift in Sources */,
 				606CA25C1EB370A100D5C4B0 /* SearchSongViewController.swift in Sources */,
-				606CA25A1EB360B600D5C4B0 /* MessageTableViewController.swift in Sources */,
 				608B66AC1EB07C7100016132 /* NotificationData.swift in Sources */,
 				60CB02CF1EA7C0A400C522CB /* SignInViewController.swift in Sources */,
-				608B66871EAF96A700016132 /* FloodView.swift in Sources */,
+				601D5B431EB48AC8000E6802 /* PersonalSpaceViewController.swift in Sources */,
 				F8C3BD441EA159D4000A071D /* AppDelegate.swift in Sources */,
 				602016E91EB223E3005CB3F1 /* ConchDetailViewController.swift in Sources */,
-				608B668B1EAF96A700016132 /* ProgressView.swift in Sources */,
-				606CA2571EB360B600D5C4B0 /* DynamicViewController.swift in Sources */,
+				601D5B451EB48B00000E6802 /* PersonalSettingViewController.swift in Sources */,
 				602B45C31EABAF84005A06FB /* MyTabBarController.swift in Sources */,
-				608B668A1EAF96A700016132 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
