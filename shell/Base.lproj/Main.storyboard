@@ -164,25 +164,6 @@
             </objects>
             <point key="canvasLocation" x="1597.5999999999999" y="36.431784107946029"/>
         </scene>
-        <!--沙滩-->
-        <scene sceneID="3CU-hj-6JR">
-            <objects>
-                <navigationController storyboardIdentifier="HomePage" id="fDo-Zl-D4y" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="沙滩" image="one2" selectedImage="one1" id="S2F-TO-Fcg">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="1"/>
-                    </tabBarItem>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rMI-fc-ei4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="UDv-Lz-Cjp" kind="relationship" relationship="rootViewController" id="DMT-yk-hF9"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tDZ-vJ-P2Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2346" y="44"/>
-        </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="ya5-wf-sPm">
             <objects>
@@ -558,7 +539,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZMD-IO-WV9">
-                                <rect key="frame" x="16" y="269" width="343" height="368"/>
+                                <rect key="frame" x="24" y="267" width="327" height="368"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Rj6-mS-UZi">
                                     <size key="itemSize" width="50" height="50"/>
@@ -587,7 +568,7 @@
                         <outlet property="followerNum" destination="PFF-9v-lVX" id="exV-Ja-xYW"/>
                         <outlet property="followingNum" destination="7qS-x1-BNu" id="5tI-sd-PEJ"/>
                         <outlet property="spaceOwner" destination="5Jm-AR-9TC" id="h48-wU-sGd"/>
-                        <outlet property="userName" destination="mej-vh-x2y" id="iMB-VV-8De"/>
+                        <outlet property="userName" destination="mej-vh-x2y" id="Vog-6d-Shf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3v-iX-6jE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -736,6 +717,24 @@
                                     <segue destination="Rfi-H6-pZP" kind="push" id="nuB-RH-X7T"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nAe-vP-Gaj">
+                                <rect key="frame" x="112" y="25" width="150" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="换种海螺  ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="Tb9-v8-Pav" kind="push" id="Lpm-jS-zbQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.82199729430000001" green="0.91889531459999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -744,24 +743,6 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="oiX-We-bzD">
                         <nil key="title"/>
-                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="nAe-vP-Gaj">
-                            <rect key="frame" x="112.5" y="7" width="150" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal">
-                                <attributedString key="attributedTitle">
-                                    <fragment content="换种海螺  ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                            </state>
-                            <connections>
-                                <segue destination="Tb9-v8-Pav" kind="push" id="Lpm-jS-zbQ"/>
-                            </connections>
-                        </button>
                     </navigationItem>
                     <connections>
                         <outlet property="Singer" destination="QcE-XB-TTH" id="N8O-0c-SFj"/>
@@ -786,7 +767,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="2344.8000000000002" y="803.74812593703155"/>
+            <point key="canvasLocation" x="2345" y="44"/>
         </scene>
         <!--Conch Detail View Controller-->
         <scene sceneID="Uf9-xa-x1q">
@@ -935,7 +916,7 @@
                         <color key="tintColor" red="0.16698688270000001" green="0.41249242419999999" blue="0.58709651230000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="fDo-Zl-D4y" kind="relationship" relationship="viewControllers" id="7uj-MY-RIC"/>
+                        <segue destination="UDv-Lz-Cjp" kind="relationship" relationship="viewControllers" id="h77-K1-cJG"/>
                         <segue destination="u72-Ff-BNO" kind="relationship" relationship="viewControllers" id="EO1-dS-xNw"/>
                         <segue destination="EaL-rI-T41" kind="relationship" relationship="viewControllers" id="kNx-q8-yTF"/>
                         <segue destination="Nth-Fq-bKU" kind="relationship" relationship="viewControllers" id="6rY-fp-crx"/>
@@ -1140,6 +1121,7 @@
                         <outlet property="conchNum" destination="Lit-EF-01V" id="IQd-gs-0zN"/>
                         <outlet property="followerNum" destination="0y6-2R-zmc" id="M65-lP-vqT"/>
                         <outlet property="followingNum" destination="upT-0y-quo" id="iiB-KS-353"/>
+                        <outlet property="userName" destination="XXt-fB-Grf" id="Uzx-fZ-zVM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMp-IA-SCD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2113,7 +2095,7 @@
         <image name="头像default" width="176" height="175"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="nuB-RH-X7T"/>
         <segue reference="QM3-At-hGf"/>
-        <segue reference="pNN-92-seI"/>
     </inferredMetricsTieBreakers>
 </document>

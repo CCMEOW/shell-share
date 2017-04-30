@@ -20,10 +20,12 @@ class PersonalSpaceViewController: UIViewController, UICollectionViewDataSource,
     var conch_num = 12
     var follow_num = 20
     var fan_num = 27
+    var user_name = "Fiction飞鸟"
 
     @IBOutlet weak var conchNum: UILabel!
     @IBOutlet weak var followingNum: UILabel!
     @IBOutlet weak var followerNum: UILabel!
+    @IBOutlet weak var userName: UILabel!
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -64,6 +66,7 @@ class PersonalSpaceViewController: UIViewController, UICollectionViewDataSource,
         conchNum.text = String(conch_num)
         followingNum.text = String(follow_num)
         followerNum.text = String(fan_num)
+        userName.text = user_name
         
         
         loadCollectionView()

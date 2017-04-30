@@ -54,7 +54,7 @@ class CollectionViewController: UIViewController, UITableViewDataSource, UITable
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let myStoryBoard = self.storyboard
         var anotherView = UIViewController()
-        anotherView = (myStoryBoard?.instantiateViewController(withIdentifier: "conchDetail"))!
+        anotherView = (myStoryBoard?.instantiateViewController(withIdentifier: "conchDetail2"))!
         navigationController?.pushViewController(anotherView, animated: true)
     }
     
